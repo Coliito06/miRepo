@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "nunito";
+    src: url("../assets/fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: "caveat";
+    src: url("../assets/fonts/Caveat-Regular.ttf");
+}
+
+body {
+    font-family: "nunito";
+    background-color: #6D4141;
+}
+
+.nav-link {
+    color: antiquewhite;
+}
+
+.nav-link:hover {
+    color: #ae8585;
+}
+
+.navbar-brand:hover {
+    color: #ae8585 !important;
+}
+
